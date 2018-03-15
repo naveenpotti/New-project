@@ -1,1 +1,5 @@
-<div *ngFor="let user of myObj "> {{user.name}} </div>
+<input type="text" name="firstname" value="Mickey" [(ngModel)]="searchText">
+{{searchText}}
+<button type="button" (click)="searchName()">search</button>
+<div *ngFor="let user of myObj "> {{user.name}} {{user.age}}{{user.car}}
+   </div>
