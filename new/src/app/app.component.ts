@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  myObj = [{ "name":"John", "age":30, "car":"naveen" },{ "name":"gupta", "age":60, "car":"rolls royce" }];
 }
+
